@@ -2,15 +2,10 @@
   <div class="container">
     <div>
       <Logo />
-       <amplify-authenticator>
-        <div>
-          My App
-          <amplify-sign-out></amplify-sign-out>
-        </div>
-      </amplify-authenticator>
       <h1 class="title">
-        aws-amplify
+        amplify
       </h1>
+       <NuxtLink to="/pantano"><img src="~/assets/panti-ricchione.jpg" alt="" /></NuxtLink>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -18,7 +13,7 @@
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          Alex
         </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
@@ -26,7 +21,7 @@
           rel="noopener noreferrer"
           class="button--grey"
         >
-          GitHub
+          L'arietee
         </a>
       </div>
     </div>
@@ -34,7 +29,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style>
@@ -48,8 +43,16 @@ export default {};
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family:
+    'Quicksand',
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
