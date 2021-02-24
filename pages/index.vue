@@ -21,7 +21,7 @@
           rel="noopener noreferrer"
           class="button--grey"
         >
-          L'ariete
+          L'arietee
         </a>
       </div>
     </div>
